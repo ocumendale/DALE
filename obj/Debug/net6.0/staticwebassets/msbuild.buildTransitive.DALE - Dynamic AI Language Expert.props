@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DALE - Dynamic AI Language Expert.props" />
+</Project>

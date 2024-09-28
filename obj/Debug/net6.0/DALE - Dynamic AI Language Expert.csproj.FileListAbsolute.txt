@@ -1,0 +1,34 @@
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\DALE - Dynamic AI Language Expert.staticwebassets.runtime.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\DALE - Dynamic AI Language Expert.exe
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\DALE - Dynamic AI Language Expert.deps.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\DALE - Dynamic AI Language Expert.runtimeconfig.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\DALE - Dynamic AI Language Expert.dll
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\DALE - Dynamic AI Language Expert.pdb
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.RazorAssemblyInfo.cache
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.RazorAssemblyInfo.cs
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\staticwebassets\msbuild.DALE - Dynamic AI Language Expert.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\staticwebassets\msbuild.build.DALE - Dynamic AI Language Expert.props
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DALE - Dynamic AI Language Expert.props
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DALE - Dynamic AI Language Expert.props
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\scopedcss\bundle\DALE - Dynamic AI Language Expert.styles.css
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\scopedcss\projectbundle\DALE - Dynamic AI Language Expert.bundle.scp.css
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.dll
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\refint\DALE - Dynamic AI Language Expert.dll
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.pdb
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\ref\DALE - Dynamic AI Language Expert.dll
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - Dynamic AI Language Expert.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\DALE - D.270A914A.Up2Date

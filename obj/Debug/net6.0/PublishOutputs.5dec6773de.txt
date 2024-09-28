@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\PubTmp\Out\DALE - Dynamic AI Language Expert.exe
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\PubTmp\Out\DALE - Dynamic AI Language Expert.dll
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\PubTmp\Out\DALE - Dynamic AI Language Expert.deps.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\PubTmp\Out\DALE - Dynamic AI Language Expert.runtimeconfig.json
+C:\Users\Administrator\source\repos\DALE - Dynamic AI Language Expert\obj\Debug\net6.0\PubTmp\Out\DALE - Dynamic AI Language Expert.pdb

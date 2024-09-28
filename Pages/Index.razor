@@ -1,0 +1,107 @@
+﻿@page "/"
+@using Newtonsoft.Json;
+@using System.Text;
+
+<PageTitle>Chatbot</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <p>@testing</p>
+        </div>
+        <div class="col-4">
+            <div class="messages">
+                @for (int i = 0; i < messages.Count; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        <div class="question">@messages[i]</div>
+                    }
+                    else
+                    {
+                        <div class="response">@messages[i]</div>
+                    }
+                }
+            </div>
+            <div class="textMessage">
+                <input @bind="message" />
+                <button @onclick="SendMessage">Send</button>
+            </div>
+        </div>
+        <div class="col-4">
+        </div>
+    </div>
+</div>
+
+@code {
+    public string message;
+    public string testing;
+    public List<string> messages = new List<string>();
+    private static HttpClient Http = new HttpClient();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Initialize any necessary data here
+        testing = "Chatbot initialized!";
+    }
+
+    public async Task SendMessage()
+    {
+        // Add the user's message to the list
+        messages.Add(message);
+
+        // Replace with a valid API key (keep it secure!)
+        var apiKey = "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";
+        Http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
+
+        // JSON content for the API call
+        var jsonContent = new
+        {
+            inputs = message, // Change to "inputs" for Hugging Face API
+            max_length = 1000 // Use max_length instead of max_tokens
+        };
+
+        try
+        {
+            // Make the API call
+            var responseContent = await Http.PostAsync("https://api-inference.huggingface.co/models/EleutherAI/gpt-neo-2.7B",
+                new StringContent(JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+
+            // Read the response as a string
+            var resContext = await responseContent.Content.ReadAsStringAsync();
+
+            // Check if the response is successful
+            if (responseContent.IsSuccessStatusCode)
+            {
+                // Deserialize the response into a dynamic object
+                var data = JsonConvert.DeserializeObject<dynamic>(resContext);
+
+                // Check if data has any generated text
+                if (data != null && data.Count > 0) // Change Length to Count
+                {
+                    messages.Add(data[0].generated_text.ToString()); // Update to match the API response
+                }
+                else
+                {
+                    messages.Add("No response from the model.");
+                }
+            }
+            else
+            {
+                // Handle API error
+                messages.Add("Error: " + responseContent.ReasonPhrase);
+            }
+        }
+        catch (Exception ex)
+        {
+            // Handle exceptions (e.g., network issues)
+            messages.Add("Exception: " + ex.Message);
+        }
+        finally
+        {
+            // Clear the input message
+            message = string.Empty;
+            StateHasChanged();
+        }
+    }
+}
